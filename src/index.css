@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* panfsig: 462446     panfsig-wight: b05f6d     orange: eb6b56    yellow: ffc153    green: 47b39d  */
+
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #47b39d;
+}
+
+
+.App{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #47b39d;
+}
+
+.App .container{
+  min-height: 80%;
+  width: 60%;
+  padding: 5%;
+  background-color: #ffc153;
+}
+
+h1{
+  padding: 15px 0px;
+  color: #fff;
+  background-color: #462446;
+}
+
+.main_form{
+  height: 40px;
+  width: 100%;
+  margin: 10px 0px;
+  margin: 20px 0px;
+}
+.main_form input{
+  height: 100%;
+  width: 60%;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  color: #462446;
+}.main_form input:focus{
+  outline: none;
+}
+.main_form button{
+  height: 100%;
+  width: 40%;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  color: #fff;
+  background-color: #47b39d;
+}
+
+
+
+li{
+  
+  list-style: none;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  margin: 20px 0px;
+}
+li span{
+  display: inline-block;
+  height: 100%;
+  min-width: 60%;
+  font-size: 25px;
+  padding: 5px 5px 5px 0px;
+  border: none;
+  color: #462446;
+  text-align: left;
+}
+li button{
+  height: 100%;
+  width: 19%;
+  font-size: 25px;
+  padding: 3px;
+  border: none;
+  color: #fff;
+}
+li .edit{
+  margin-right: 7px;
+  background-color: #b05f6d;
+}
+li .delete{
+  margin-left: 6px;
+  background-color: #eb6b56;
+}
+
+
+
+.update{
+  height: 100%;
+  min-width: 100%;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+}
+.update input{
+  height: 100%;
+  width: 60%;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  color: #462446;
+}.update input:focus{
+  outline: none;
+}
+.update button{
+  height: 100%;
+  width: 40%;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  color: #fff;
+  background-color: #47b39d;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .App .container{
+    width: 80%; 
+  }
+
+  .main_form button{
+    font-size: 15px;
+    padding: 15px 0px;
+  }
+
+
+  
+  li{
+    min-width: 100%;
+    height: 40px;
+  }
+  li span{
+    min-width: 55%;
+  }
+  li button{
+    height: 100%;
+    width: 20%;
+    font-size: 15px;
+    padding: 3px;
+    border: none;
+    color: #fff;
+  }
+  li .edit{
+    margin-right: 5px;
+    background-color: #b05f6d;
+  }
+  li .delete{
+    margin-left: 5px;
+    background-color: #eb6b56;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 991px) { 
+  
+ }
+
+
